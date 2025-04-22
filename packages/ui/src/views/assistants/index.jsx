@@ -122,7 +122,7 @@ const Assistants = () => {
         <>
             <MainCard>
                 <Stack flexDirection='column' sx={{ gap: 3 }}>
-                    <ViewHeader title='Assistants' />
+                    <ViewHeader title='Virtual Assistants' />
                     <FeatureCards />
                 </Stack>
             </MainCard>

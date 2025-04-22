@@ -26,8 +26,8 @@ const dashboard = {
             //title: 'Chatflows',
             title: 'Chat AI',
             type: 'item',
-            url: '/chatflows',
-            //url: '/chat-ai',
+            //url: '/chatflows',
+            url: '/chat-ai',
             icon: icons.IconHierarchy,
             breadcrumbs: true
         },
@@ -36,8 +36,8 @@ const dashboard = {
             //title: 'Agentflows',
             title: 'Agentic AI',
             type: 'item',
-            url: '/agentflows',
-            //url: '/agentic-ai',
+            //url: '/agentflows',
+            url: '/agentic-ai',
             icon: icons.IconUsersGroup,
             breadcrumbs: true,
             //isBeta: true
@@ -45,9 +45,11 @@ const dashboard = {
         },
         {
             id: 'assistants',
-            title: 'Assistants',
+            //title: 'Assistants',
+            title: 'Virtual Assistants',
             type: 'item',
-            url: '/assistants',
+            //url: '/assistants',
+            url: '/virtual-assistants',
             icon: icons.IconRobot,
             breadcrumbs: true
         },
@@ -64,8 +66,8 @@ const dashboard = {
             //title: 'Tools',
             title: 'Custom Tools',
             type: 'item',
-            url: '/tools',
-            //url: '/custom-tools',
+            //url: '/tools',
+            url: '/custom-tools',
             icon: icons.IconTool,
             breadcrumbs: true
         },
@@ -82,8 +84,8 @@ const dashboard = {
             //title: 'Variables',
             title: 'System Variables',
             type: 'item',
-            url: '/variables',
-            //url: '/system-variables',
+            //url: '/variables',
+            url: '/system-variables',
             icon: icons.IconVariable,
             breadcrumbs: true
         },
@@ -92,8 +94,8 @@ const dashboard = {
             //title: 'API Keys',
             title: 'API',
             type: 'item',
-            url: '/apikey',
-            //url: '/api',
+            //url: '/apikey',
+            url: '/api',
             icon: icons.IconKey,
             breadcrumbs: true
         },
@@ -102,8 +104,8 @@ const dashboard = {
             //title: 'Document Stores',
             title: 'Knowledge Base',
             type: 'item',
-            url: '/document-stores',
-            //url: '/knowledge-base',
+            //url: '/document-stores',
+            url: '/knowledge-base',
             icon: icons.IconFiles,
             breadcrumbs: true
         }

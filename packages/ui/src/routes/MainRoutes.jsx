@@ -50,6 +50,34 @@ const MainRoutes = {
             element: <Chatflows />
         },
         {
+            path: '/chat-ai',
+            element: <Chatflows />
+        },
+        {
+            path: '/agentic-ai',
+            element: <Agentflows />
+        },
+        {
+            path: '/custom-tools',
+            element: <Tools />
+        },
+        {
+            path: '/system-variables',
+            element: <Variables />
+        },
+        {
+            path: '/virtual-assistants',
+            element: <Assistants />
+        },
+        {
+            path: '/api',
+            element: <APIKey />
+        },
+        {
+            path: '/knowledge-base',
+            element: <Documents />
+        },
+        {
             path: '/chatflows',
             element: <Chatflows />
         },
