@@ -23,20 +23,25 @@ const dashboard = {
     children: [
         {
             id: 'chatflows',
-            title: 'Chatflows',
+            //title: 'Chatflows',
+            title: 'Chat AI',
             type: 'item',
             url: '/chatflows',
+            //url: '/chat-ai',
             icon: icons.IconHierarchy,
             breadcrumbs: true
         },
         {
             id: 'agentflows',
-            title: 'Agentflows',
+            //title: 'Agentflows',
+            title: 'Agentic AI',
             type: 'item',
             url: '/agentflows',
+            //url: '/agentic-ai',
             icon: icons.IconUsersGroup,
             breadcrumbs: true,
-            isBeta: true
+            //isBeta: true
+            isBeta: false
         },
         {
             id: 'assistants',
@@ -56,9 +61,11 @@ const dashboard = {
         },
         {
             id: 'tools',
-            title: 'Tools',
+            //title: 'Tools',
+            title: 'Custom Tools',
             type: 'item',
             url: '/tools',
+            //url: '/custom-tools',
             icon: icons.IconTool,
             breadcrumbs: true
         },
@@ -72,25 +79,31 @@ const dashboard = {
         },
         {
             id: 'variables',
-            title: 'Variables',
+            //title: 'Variables',
+            title: 'System Variables',
             type: 'item',
             url: '/variables',
+            //url: '/system-variables',
             icon: icons.IconVariable,
             breadcrumbs: true
         },
         {
             id: 'apikey',
-            title: 'API Keys',
+            //title: 'API Keys',
+            title: 'API',
             type: 'item',
             url: '/apikey',
+            //url: '/api',
             icon: icons.IconKey,
             breadcrumbs: true
         },
         {
             id: 'document-stores',
-            title: 'Document Stores',
+            //title: 'Document Stores',
+            title: 'Knowledge Base',
             type: 'item',
             url: '/document-stores',
+            //url: '/knowledge-base',
             icon: icons.IconFiles,
             breadcrumbs: true
         }
