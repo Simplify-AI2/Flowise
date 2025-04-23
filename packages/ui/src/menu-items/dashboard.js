@@ -1,5 +1,16 @@
 // assets
 import {
+    IconPencilCode,
+    IconPasswordUser,
+    IconCloudLock,
+    IconLocationShare,
+    IconAppsOff,
+    IconArchive,
+    IconApps,
+    IconLayoutList,
+    IconMan,
+    IconMessageChatbot,
+    IconUsersPlus,
     IconUsersGroup,
     IconHierarchy,
     IconBuildingStore,
@@ -12,7 +23,28 @@ import {
 } from '@tabler/icons-react'
 
 // constant
-const icons = { IconUsersGroup, IconHierarchy, IconBuildingStore, IconKey, IconTool, IconLock, IconRobot, IconVariable, IconFiles }
+const icons = {
+    IconPencilCode,
+    IconPasswordUser,
+    IconCloudLock,
+    IconLocationShare,
+    IconAppsOff,
+    IconArchive,
+    IconApps,
+    IconLayoutList,
+    IconMan,
+    IconMessageChatbot,
+    IconUsersPlus,
+    IconUsersGroup,
+    IconHierarchy,
+    IconBuildingStore,
+    IconKey,
+    IconTool,
+    IconLock,
+    IconRobot,
+    IconVariable,
+    IconFiles
+}
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -28,7 +60,8 @@ const dashboard = {
             type: 'item',
             //url: '/chatflows',
             url: '/chat-ai',
-            icon: icons.IconHierarchy,
+            //icon: icons.IconHierarchy,
+            icon: icons.IconMessageChatbot,
             breadcrumbs: true
         },
         {
@@ -38,7 +71,8 @@ const dashboard = {
             type: 'item',
             //url: '/agentflows',
             url: '/agentic-ai',
-            icon: icons.IconUsersGroup,
+            //icon: icons.IconUsersGroup,
+            icon: icons.IconUsersPlus,
             breadcrumbs: true,
             //isBeta: true
             isBeta: false
@@ -50,7 +84,8 @@ const dashboard = {
             type: 'item',
             //url: '/assistants',
             url: '/virtual-assistants',
-            icon: icons.IconRobot,
+            //icon: icons.IconRobot,
+            icon: icons.IconMan,
             breadcrumbs: true
         },
         {
@@ -58,7 +93,8 @@ const dashboard = {
             title: 'Marketplaces',
             type: 'item',
             url: '/marketplaces',
-            icon: icons.IconBuildingStore,
+            //icon: icons.IconBuildingStore,
+            icon: icons.IconApps,
             breadcrumbs: true
         },
         {
@@ -68,7 +104,8 @@ const dashboard = {
             type: 'item',
             //url: '/tools',
             url: '/custom-tools',
-            icon: icons.IconTool,
+            //icon: icons.IconTool,
+            icon: IconLocationShare,
             breadcrumbs: true
         },
         {
@@ -76,7 +113,8 @@ const dashboard = {
             title: 'Credentials',
             type: 'item',
             url: '/credentials',
-            icon: icons.IconLock,
+            //icon: icons.IconLock,
+            icon: icons.IconPasswordUser,
             breadcrumbs: true
         },
         {
@@ -86,7 +124,8 @@ const dashboard = {
             type: 'item',
             //url: '/variables',
             url: '/system-variables',
-            icon: icons.IconVariable,
+            //icon: icons.IconVariable,
+            icon: icons.IconPencilCode,
             breadcrumbs: true
         },
         {
@@ -96,7 +135,8 @@ const dashboard = {
             type: 'item',
             //url: '/apikey',
             url: '/api',
-            icon: icons.IconKey,
+            //icon: icons.IconKey,
+            icon: icons.IconCloudLock,
             breadcrumbs: true
         },
         {
@@ -106,7 +146,8 @@ const dashboard = {
             type: 'item',
             //url: '/document-stores',
             url: '/knowledge-base',
-            icon: icons.IconFiles,
+            //icon: icons.IconFiles,
+            icon: icons.IconLayoutList,
             breadcrumbs: true
         }
     ]
