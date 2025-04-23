@@ -61,28 +61,28 @@ const agent_settings = {
         },
         {
             id: 'duplicateChatflow',
-            title: 'Duplicate Agents',
+            title: 'Duplicate Agentic AI',
             type: 'item',
             url: '',
             icon: icons.IconCopy
         },
         {
             id: 'loadChatflow',
-            title: 'Load Agents',
+            title: 'Load Agentic AI',
             type: 'item',
             url: '',
             icon: icons.IconFileUpload
         },
         {
             id: 'exportChatflow',
-            title: 'Export Agents',
+            title: 'Export Agentic AI',
             type: 'item',
             url: '',
             icon: icons.IconFileExport
         },
         {
             id: 'deleteChatflow',
-            title: 'Delete Agents',
+            title: 'Delete Agentic AI',
             type: 'item',
             url: '',
             icon: icons.IconTrash

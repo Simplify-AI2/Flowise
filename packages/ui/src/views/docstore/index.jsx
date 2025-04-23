@@ -78,7 +78,7 @@ const Documents = () => {
 
     const addNew = () => {
         const dialogProp = {
-            title: 'Add New Document Store',
+            title: 'Add New Knowledge Base',
             type: 'ADD',
             cancelButtonName: 'Cancel',
             confirmButtonName: 'Add'
