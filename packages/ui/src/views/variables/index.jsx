@@ -223,7 +223,7 @@ const Variables = () => {
                                         alt='VariablesEmptySVG'
                                     />
                                 </Box>
-                                <div>No Variables Yet</div>
+                                <div>No System Variables Yet</div>
                             </Stack>
                         ) : (
                             <TableContainer

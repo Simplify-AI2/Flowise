@@ -204,7 +204,7 @@ const Agentflows = () => {
                                     alt='AgentsEmptySVG'
                                 />
                             </Box>
-                            <div>No Agents Yet</div>
+                            <div>No Agentic AI Yet</div>
                         </Stack>
                     )}
                 </Stack>

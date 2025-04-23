@@ -332,7 +332,7 @@ const Documents = () => {
                                     alt='doc_store_empty'
                                 />
                             </Box>
-                            <div>No Document Stores Created Yet</div>
+                            <div>No Knowledge Base Created Yet</div>
                         </Stack>
                     )}
                 </Stack>

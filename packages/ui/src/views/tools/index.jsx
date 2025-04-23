@@ -229,7 +229,7 @@ const Tools = () => {
                                         alt='ToolEmptySVG'
                                     />
                                 </Box>
-                                <div>No Tools Created Yet</div>
+                                <div>No Custom Tools Created Yet</div>
                             </Stack>
                         )}
                     </Stack>
